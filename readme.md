@@ -1,7 +1,7 @@
 
 
 ## Day 2 Tasks – Python
-## ========================================================
+## ============================
 
 ## 1. Ali bought 3 pens, he invested 10 rs for each pen. He gave the shopkeeper a note of 50, how much  he should  get back.
 
@@ -52,11 +52,11 @@ items = 2
 
 print(f"The machine will Produce {items**hours } items in {hours} hours")
 ```
-## ========================================================
+## ==========================
 
 
 ## Day 3 Tasks – Python
-## ========================================================
+## ===========================
 
 
 ## 1. Aap supermarket gaye ho. Ek item ki price price = 120 hai. Agar price 100 se zyada ho to "Expensive" print karo, warna "Affordable".
@@ -69,7 +69,7 @@ else:
     print("Affordable")
 ```
 
-## ---------------------------------------------
+## -----------------------------
 
 
 ## 2. Ek student ka percentage = 40 hai. Agar 85 ya zyada hai to "Excellent", agar 60–84 ke beech hai to "Good", warna "Needs Improvement".
@@ -195,4 +195,42 @@ elif(battery >= 20 and battery < 50):
     print("Battery Low")
 elif(battery < 20):
     print("Connect Charger Immediately")
+```
+
+
+## Day 4 Tasks – Python
+## ===================================
+
+## 1. Print 1 to 10 numbers
+```python
+for a in range(1,11):
+    print(a)
+```
+
+## 2. ⁠print even numbers 2-20
+
+```python
+for a in range(2,21):
+    if(a%2==0):  
+        print(a)
+```
+
+## 3. ⁠Square numbers 1-25
+
+```python
+for a in range(1, 26):
+    print(f"The square of {a} is {a**2}")
+```
+## 4. ⁠print odd numbers 1-100
+
+```python
+for a in range(1,100):
+    if(a%2!=0):  
+        print(a)
+```
+
+## 5. ⁠print 1-10 with hello (eg 1 hello)
+```python
+for a in range(1, 11):
+    print(a ,"hello")
 ```
