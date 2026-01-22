@@ -234,3 +234,40 @@ for a in range(1,100):
 for a in range(1, 11):
     print(a ,"hello")
 ```
+## Calculator
+
+Short interactive calculator script that repeatedly prompts for two integers and an operator, performs the operation, and asks whether to continue.
+
+Usage:
+
+```bash
+python Calculator_task.py
+```
+
+Source code (from `Calculator_task.py`):
+
+```python
+while(True):
+    num1 = int(input("Enter First number::> "))
+    num2 = int(input("Enter second number::> "))
+
+    operator = input("What so you want to perform: (+ , - , * , / , % , ** , //)")
+
+    if(operator == "+"):
+        print(f"{num1} + {num2} is: {num1 + num2}")
+    elif(operator == "-"):
+        print(f"{num1} - {num2} is: {num1 - num2}")
+    elif(operator == "*"):
+        print(f"{num1} * {num2} is: {num1 * num2}")
+    elif(operator == "/"):
+        print(f"{num1} / {num2} is: {num1 / num2}")
+    elif(operator == "%"):
+        print(f"{num1} % {num2} is: {num1 % num2}")
+    elif(operator == "**"):
+        print(f"{num1} power {num2} is: {num1 ** num2}")
+    else:
+        print(f"{num1} floor division {num2} is: {num1 // num2}")
+    moreOprations = input("Do you want to perform more oprations (yes/no) :> ")
+    if(moreOprations == "no"):
+        break
+```
